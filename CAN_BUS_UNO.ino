@@ -15,8 +15,9 @@ const int NUM_PIDS = sizeof(PIDS) / sizeof(PIDS[0]);
 //[18, 19, 23, 5] 
 void setup()
 {
+   Serial.println("Serial begin at Baud Rate 115200 ");
   Serial.begin(115200);
-  Serial.println("Serial 115200 is begin");
+ 
 
 // the serial must be true to leave the while loop
 while(!Serial);
