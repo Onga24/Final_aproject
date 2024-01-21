@@ -3,7 +3,6 @@
 #include <SPI.h>
 
 //using PIDS from OBD2 library
-
 const bool use_StandardAddressing = true; 
 // making an array contain the defined IDS in the library
 const int PIDS[]={
